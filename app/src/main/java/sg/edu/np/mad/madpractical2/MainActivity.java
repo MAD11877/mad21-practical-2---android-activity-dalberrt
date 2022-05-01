@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        User user1 = new User("Dalbert", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", 1, false);
+        User user1 = new User("Dalbert", "i touch cats and eat chicken", 1, false);
 
         Button followBtn = findViewById(R.id.followBtn);
         TextView username = findViewById(R.id.username);
